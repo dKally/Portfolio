@@ -109,3 +109,22 @@ body{
 .i-git{
     font-size: 1.3rem;
 }
+
+
+@media screen and (max-width: 550px){
+    .box{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .box{
+        padding: 40px;
+    }
+    .title{
+        font-size: 1.3rem;
+    }
+    .link{
+        font-size: 1.5rem;
+    }
+}

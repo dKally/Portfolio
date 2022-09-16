@@ -96,6 +96,7 @@ body{
     background-image: url(../../assets/img.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -172,13 +173,41 @@ body{
     transition: 0.4s;
 }
 
+@media screen and (min-width: 1280px){
+    .link{
+        font-size: 4rem;
+    }
+}
 
+@media screen and (max-width: 600px){
+    .box{
+        width: 100%;
+        padding: 80px;
+        border-radius: 25px;
+    }
+    .link{
+        font-size: 2.5remrem;
+    }
+}
 
+@media screen and (max-width: 500px){
+    .link{
+        font-size: 2rem;
+    }
+    .box{
+        padding: 50px;
+        border-radius: 20px;
+    }
+}
 
+@media screen and (max-height: 600px) {
+    .link{
+        font-size: 2.5rem;
+    }
+}
 
-
-
-
-
-
-
+@media screen and (max-height: 525px){
+    .link{
+        font-size: 2rem;
+    }
+}
